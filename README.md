@@ -20,6 +20,7 @@ vault_bump: u8
 state_bump: u8
 
 <h3>Instructions</h3>
+
 Initialize:
 Creates a new vault for the user.
 
