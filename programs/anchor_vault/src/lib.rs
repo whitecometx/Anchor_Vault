@@ -80,7 +80,7 @@ impl<'info> Payment<'info>{
         let cpi_program  = self.system_program.to_account_info();
         let cpi_accounts  = Transfer {
             from: self.user.to_account_info(),
-            to: self.user.to_account_info(),
+            to: self.vault.to_account_info(),
         };
         let cpi_ctx = CpiContext::new(cpi_program, cpi_accounts);
         transfer(cpi_ctx, amount)?;
