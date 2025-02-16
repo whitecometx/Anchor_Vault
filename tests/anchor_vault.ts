@@ -3,8 +3,6 @@ import { Program } from "@coral-xyz/anchor";
 import { AnchorVault } from "../target/types/anchor_vault";
 import { PublicKey, SystemProgram, LAMPORTS_PER_SOL } from "@solana/web3.js";
 import { expect } from "chai";
-import { randomBytes } from "crypto";
-import { BN } from "bn.js";
 
 describe("anchor_vault", () => {
   const provider = anchor.AnchorProvider.env();
