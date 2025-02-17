@@ -1,6 +1,26 @@
 <h1>Anchor Vault Program</h1>
 This is an Anchor-based Solana program that implements a simple vault system. Users can initialize a vault, deposit funds, withdraw funds, and close the vault.
 
+Installation
+
+Clone the repository:
+
+git clone https://github.com/whitecometx/Anchor_Vault
+cd Anchor_Vault
+Install the required dependencies:
+
+anchor build
+Ensure your Solana wallet is set up and funded on the devnet.
+
+Project Structure
+
+The project consists of several key files:
+
+File	Description
+lib.rs	Contains the main logic of the vault program, including methods for initialization, deposits, withdrawals, and closing accounts.
+solana_anchor.ts	Contains tests for the vault program using the Anchor testing framework.
+
+
 Features:
 
 1. Initialize a personal vault
